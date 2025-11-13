@@ -1,0 +1,14 @@
+h3 {
+    color: forestgreen;
+}
+
+/*id selector*/
+#p1 {
+    color: blue;
+}
+
+/*class selector*/
+.p2 {
+    color:chocolate;
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Styling Examples</title>
+
+        <!--internal CSS-->
+        <style>
+            h2 { 
+                text-align: right;
+            }
+
+            span  {
+                color:red;
+            }
+        </style>
+
+        <!--importing external CSS-->
+        <link href="style-sample.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--using Inline CSS-->
+        <h1 style="text-align:  center;">
+            Welcome to CSS. This is using inline CSS
+        </h1>
+
+        <p style="color:cyan;">
+            This is an example of inline CSS
+        </p>
+
+        <!--using internal CSS, the style is in the head-->
+        <h2>
+            Hello World
+        </h2>
+
+        <p>
+            <span>
+                This is an example of Internal CSS
+            </span>
+        </p>
+
+        <!--Using external CSS-->
+        <h3>
+            This is using external CSS
+        </h3>
+
+        <!--using selectors-->
+        <p id="p1">This is using external CSS with id selectors</p>
+
+        <p class="p2">This is using external CSS with class selector</p>
+    </body>
+</html>
