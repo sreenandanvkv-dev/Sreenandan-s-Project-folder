@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animations</title>
+        
+        <style>
+            /*The animation code */
+            @keyframes sample1 {
+                0%  {background-color: red;}
+                10% {background-color:  orangered}
+                20% {background-color: orange;}
+                30% {background-color: lightgreen}
+                40% {background-color: greenyellow;}
+                50% {background-color: forestgreen;}
+                60% {background-color: aqua;}
+                70% {background-color: blue;}
+                80% {background-color: violet}
+                90% {background-color: purple;}
+                100% {background-color: black;}
+            }
+
+            /* The element to apply the animation to*/
+            div {
+                width: 100px;
+                height: 100px;
+                background-color: black;
+                animation-name:sample1 ;
+                animation-duration: 12s;
+                
+            }
+        </style>
+
+        
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
