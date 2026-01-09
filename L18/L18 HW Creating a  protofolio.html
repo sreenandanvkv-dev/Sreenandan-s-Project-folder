@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Horizontal Scrollspy</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+            body {
+                position: relative;
+            }
+
+            #section1 {
+
+                padding-top: 50px;
+                height: 500px;
+                color: white;
+                background-color: rgb(118, 219, 92);
+            }
+
+            #section2 {
+                
+                padding-top: 50px;
+                height: 500px;
+                color: white;
+                background-color: rgb(207, 150, 42);
+            }
+
+            #section3 {
+                
+                padding-top: 50px;
+                height: 500px;
+                color: white;
+                background-color: rgb(99, 98, 98);
+            }
+        </style>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">MINECRAFT</a>
+                </div>
+
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#section1">About Minecraft</a></li>
+                            <li><a href="#section2">About Creator</a></li>
+                            <li><a href="#section3">Minecraft builds</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="section1" class="container-fluid">
+            <h1><u>About Minecraft</u></h1>
+            <p>
+        Minecraft is known as a sandbox game because it has no set goal,<br>
+        allowing players endless possibilities to create, explore, and interact with the world as they choose.
+            </p>
+
+            <p>
+               A core mechanic of the game involves breaking various blocks, gathering resources,<br>
+                and using them to craft new items, tools, and build imaginative structures.
+            </p>
+
+            <p>
+                Survival and Exploration: Players can explore vast landscapes, manage resources like hunger, battle hostile<br>
+                 creatures (mobs), and navigate challenges in different game modes, most notably Survival and Hardcore modes. 
+            </p>
+            
+        </div>
+
+        <div id="section2" class="container-fluid">
+            <h1><u>The Creator Notch</u></h1>
+            <p>
+                Notch developed the initial version of Minecraft (originally called "Cave Game") during a single weekend in May 2009,<br>
+                 inspired by games like Infiniminer and Dwarf Fortress. He then released the game on an indie developer forum,<br>
+                  where it quickly gained a dedicated community and grew in popularity through player feedback and word-of-mouth.
+            </p>
+
+            <p>
+                As Minecraft's popularity exploded, Notch founded Mojang Studios in 2010 to support the game's development.<br>
+                 In 2014, he sold the company and the rights to Minecraft to Microsoft for a reported $2.5 billion,<br>
+                  making him a billionaire.
+            </p>
+
+            <p>
+               After the sale, Persson left Mojang and transferred creative control to Jens Bergensten, stating he didn't<br>
+                want the responsibility of managing such a massive operation. Since his departure, his controversial social<br>
+                 media posts regarding various social issues have led to Microsoft largely distancing itself from him and<br>
+                  removing most of his name references from the game. 
+            </p>
+            
+        </div>
+
+        <div id="section3" class="container-fluid">
+            <h1>Minecraft Builds</h1>
+            <p>
+                Here are some of the creative things done by the creative players of Minecraft
+
+            <div id="Creativity" class="carousel slide" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+            <!--Wrapper for slides-->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="mc.build1.PNG" alt="minecraft picture" width="350px">
+                </div>
+
+                <div class="item">
+                    <img src="mc.build.2.PNG" alt="minecraft picture" width="350px">
+                </div>
+
+                <div class="item">
+                    <img src="mc.build.3.PNG" alt="Minecraft picture" width="350px">
+                </div> 
+
+                <div class="item">
+                    <img src="mc.build.4.PNG" alt="Minecraft picture" width="350px">
+                </div>
+
+                <div class="item">
+                    <img src="mc.build.5.PNG" alt="Minecraft picture" width="350px">
+                </div>
+
+                <!--Left and Right controls-->
+                <a class="left carousel-control" href="" data-slide="next">
+                    <span class="glyphicon glyphicon-cheveron-left"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-cheveron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            
+        </div>
+    </body>
+</html>
