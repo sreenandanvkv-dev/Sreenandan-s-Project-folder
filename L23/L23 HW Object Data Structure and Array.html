@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <p id="Game"></p>
+        <p id="first"></p>
+        <p id="second"></p>
+        <p id="third"></p>
+        <p id="4th"></p>
+
+        <script>
+            var Game =["CallofDuty","Freefire","PUBG","Fortnite","Roblox","Minecraft","Plasmaphobia"];
+            document.getElementById("Game").innerHTML = Game.join("|");
+
+            Game.pop();
+            document.getElementById("first").innerHTML = Game;
+            document.getElementById('first').innerHTML = Game.join(":");
+
+            Game.pop();
+            document.getElementById("second").innerHTML = Game;
+
+            Game.pop();
+            document.getElementById("third").innerHTML = Game;
+
+            document.getElementById("4th").innerHTML = Game[2];
+          
+        </script>
+</body>
+</html>
