@@ -10,7 +10,7 @@
         <hr>
             <form id="logininForm" onsubmit="validate(event)">
                 <!--Fieldset groups related element in a form-->
-                <feildset>
+                <fieldset>
                     <!--Email input feild-->
                     <div>
                         <label for="email">Email:</label>
@@ -34,8 +34,12 @@
                     <!--Submit button for the form-->
                     <button type="submit">Login</button>
 
-                    <feildset>
-                </feildset>
+                </fieldset>
             </form>
+            <!--Div for displaying validation messages-->
+            <div id="message"></div>
+
+            <!--Link to the external JavaScript file-->
+            <script src="script-valid.js"></script>
     </body>
 </html>
