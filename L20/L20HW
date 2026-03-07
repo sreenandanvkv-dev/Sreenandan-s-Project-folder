@@ -10,19 +10,19 @@
             A function can access variables defined inside the function:
         </p>
 
-        <button type="button" onclick="myFunction()">Access Portal</button>
-        <p id="demo"></p>
-        <p id="demo1"></p>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+        <p id="ans"></p>
+        <p id="ans2"></p>
 
         <script>
-            var b = un
+            var b = undefined
 
             function myFunction() {
-                var a= 0;
-                document.getElementById("demo").innerHTML= a ** b;
+                var a= 7;
+                document.getElementById("ans").innerHTML= a * b;
             }
 
-            document.getElementById("demo1").innerHTML = a;
+            document.getElementById("ans2").innerHTML = b;
         </script>
     </body>
 </html>
