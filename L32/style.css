@@ -1,0 +1,9 @@
+/* About Section */
+.about {
+    background: black;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid orange;
+}
