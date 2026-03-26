@@ -1,0 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(48, 43, 43);
+    font-family:'Courier New', Courier, monospace;
+}
