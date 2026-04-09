@@ -55,6 +55,31 @@ for(var i=0;i<operator.length;i++){
                 history= history.substring(0,history.length-1);
             }
         }
+        if(output!=""||history!=""){
+            output= output==""?output:reverseNumberFormat(output);
+
+            history = history +output;
+            if(this.id=='='){
+                var result=eval(history);
+                printOutput(result);
+                printHistory("");
+            }   
+            else{
+                history = history + this.id;
+                printHistory(history);
+                printOutput("");
+            }
+        }
     }
-    })
+    });
+}
+
+var number = document.getElementsByClassName("number");
+for(var i=0; i<number.length; i++){
+    number[i].addEventListener('click',function(){
+        var output = reverseNumberFormat(getOutput());
+        if(output = output + this.id;
+            printOutput(output);
+        )
+    });   
 }
