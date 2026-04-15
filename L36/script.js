@@ -52,8 +52,8 @@ for(var i=0;i<operator.length;i++){
             var output=getOutput();
             var history=getHistory();
             if(output==""&&history!=""){
-            if(isNaN)(history[history.length-1]){
-                history= history.substring(0,history.length-1);
+                if(isNaN(history[history.length-1])){
+                    history= history.substring(0,history.length-1);
                 }
             }
             if(output!=""||history!=""){
