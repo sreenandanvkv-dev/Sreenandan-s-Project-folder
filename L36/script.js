@@ -3,7 +3,7 @@ function getHistory(){
 }
 
 function printHistory(num){
-    document.getElementById("history-value").innerText-num;
+    document.getElementById("history-value").innerText=num;
 }
 
 function getOutput(){
@@ -12,10 +12,10 @@ function getOutput(){
 
 function printOutput(num){
     if(num==""){
-        document.getElementById("Output-value").innerText;
+        document.getElementById("output-value").innerText=num;
     }
     else{
-        document.getElementById("output-value").innerText-getFormattedNumber(num);
+        document.getElementById("output-value").innerText=getFormattedNumber(num);
     }
 }
 
