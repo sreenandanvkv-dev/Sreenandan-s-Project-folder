@@ -70,8 +70,8 @@ for(var i=0;i<operator.length;i++){
                     printHistory(history);
                     printOutput("");
                 }
+            }
         }
-    }
     });
 }
 
