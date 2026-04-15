@@ -24,7 +24,7 @@ function getFormattedNumber(num){
         return"";
     }
     var n = Number(num);
-    var value = n.toLocaleString("en")
+    var value = n.toLocaleString("en");
     return value;
 }
 
@@ -40,13 +40,14 @@ for(var i=0;i<operator.length;i++){
             printHistory("");
             printOutput("");
         }
+
         else if(this.id=="backspace"){
             var output=reverseNumberFormat(getOutput()).toString();
             if(output){//if output has a value
                 output= output.substring(0,output.length-1);
-            printOutput(output);
+                printOutput(output);
+            }
         }
-    }
     else{
         var output=getOutput();
         var history=getHistory();
